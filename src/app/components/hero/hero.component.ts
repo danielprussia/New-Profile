@@ -1,12 +1,12 @@
+// hero.component.ts
 import { Component } from '@angular/core';
+import { ParticleBackgroundComponent } from '../../shared/particle-background/particle-background.component'; // Verify correct path
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [],
+  imports: [ParticleBackgroundComponent], // Add this
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css'
+  styleUrls: ['./hero.component.css']
 })
-export class HeroComponent {
-
-}
+export class HeroComponent {}
