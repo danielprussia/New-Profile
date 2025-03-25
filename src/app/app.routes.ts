@@ -1,4 +1,5 @@
 // app.routes.ts (or app.module.ts)
+import { Routes } from '@angular/router';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
